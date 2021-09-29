@@ -91,7 +91,8 @@ _/
 
 - **Dataset:** the dataset is split into training set(~260000), validation set(~20000), and testing set(~20000) randomly (they are the same for each experiment group)
 - **Max Number of Iterations**: 50000
-- **NOTE:** I've tried `Vanilla-RNN(nn.RNN)` in various ways, but the BLEU score turns out to be extremely low for it, I decided to not include it for comparison until the issue is resolved
+- **NOTE:** I've tried Vanilla-RNN(nn.RNN) in various ways, but the BLEU score turns out to be extremely low for it (absence of `residual connections` might be the issue)
+  - I decided to not include it for comparison until the issue is resolved
 
 |                                                  | Training Time(sec) | BLEU Score on Test Set | Training Perplexities                                        | Validation Perplexities                                      |
 | ------------------------------------------------ | ------------------ | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
