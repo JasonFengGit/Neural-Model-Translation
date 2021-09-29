@@ -77,7 +77,7 @@ src/
 
 ### Training And Testing Results
 
-> Training Colab [notebook]()
+> Training Colab [notebook](https://colab.research.google.com/drive/1xW4KYJLoA9-ev7r7y4Eq-UQDUFjUKiYb?usp=sharing)
 
 - **Hyperparameters:**
   - Embedding Size & Hidden Size: 512
