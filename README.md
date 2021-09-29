@@ -24,7 +24,7 @@ To investigate how would various setups of the recurrent layer affect the final 
 ### Code Files
 
 ```
-src/
+_/
 ├─ utils.py # utilities
 ├─ vocab.py # generate vocab
 ├─ model_embeddings.py # embedding layer
