@@ -153,6 +153,13 @@ TODO
   - Add a proper noun dictionary to translate unknown proper nouns word-by-word (phrase-by-phrase) 
   - Initialize (sub)word embedding with pretrained embedding
 
+### How To Run
+- To run locally on a CPU (mostly for sanity check, CPU is not able to train the model)
+  - set up the environment using conda/miniconda `conda env create --file local env.yml`
+- To run on a GPU
+  - set up the environment and running process following the Colab [notebook](https://colab.research.google.com/drive/1xW4KYJLoA9-ev7r7y4Eq-UQDUFjUKiYb?usp=sharing)
+
+
 ### Contact
 If you have any questions or you have trouble running the code, feel free to contact me via [email](mailto:jasonfen@usc.edu)
 
