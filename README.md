@@ -154,6 +154,7 @@ TODO
   - Initialize (sub)word embedding with pretrained embedding
 
 ## How To Run
+- Download the dataset you desire, and change all "./zh_en_data" in `run.sh` to the path where your data is stored
 - To run locally on a CPU (mostly for sanity check, CPU is not able to train the model)
   - set up the environment using conda/miniconda `conda env create --file local env.yml`
 - To run on a GPU
