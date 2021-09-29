@@ -153,5 +153,6 @@ TODO
   - Add a proper noun dictionary to translate unknown proper nouns word-by-word (phrase-by-phrase) 
   - Initialize (sub)word embedding with pretrained embedding
 
-
+### Contact
+If you have any questions or you have trouble running the code, feel free to contact me via [email](mailto:jasonfen@usc.edu)
 
