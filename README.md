@@ -85,7 +85,7 @@ src/
   - Starting Learning Rate: 5e-4
   - Batch Size: 32
   - Beam Size for Beam Search: 10
-- **NOTE: **The BLEU score calculated here is based on the `Test Set`, so it could only be used to compare the **relative effectiveness** of the models using this data
+- **NOTE:** The BLEU score calculated here is based on the `Test Set`, so it could only be used to compare the **relative effectiveness** of the models using this data
 
 #### For Experiment
 
@@ -96,10 +96,10 @@ src/
 |                                                  | Training Time(sec) | BLEU Score on Test Set | Training Perplexities                                        | Validation Perplexities                                      |
 | ------------------------------------------------ | ------------------ | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **A.** Bidirectional 1-Layer GRU with Tanh       | 5158.99            | 14.26                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/gru_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/gru_dev_ppl.svg) |
-| **B. **Bidirectional 1-Layer LSTM with Tanh      | 5150.31            | 16.20                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/lstm_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/lstm_dev_ppl.svg) |
-| **C. **Bidirectional 2-Layer LSTM with Tanh      | 6197.58            | **16.38**              | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_2_layer_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_2_layer_dev_ppl.svg) |
-| **D. **Bidirectional 1-Layer LSTM with ReLU      | 5275.12            | 14.01                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_dev_ppl.svg) |
-| **E. **Bidirectional 1-Layer LSTM with LeakyReLU | TODO               | TODO                   | TODO                                                         | TODO                                                         |
+| **B.** Bidirectional 1-Layer LSTM with Tanh      | 5150.31            | 16.20                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/lstm_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/lstm_dev_ppl.svg) |
+| **C.** Bidirectional 2-Layer LSTM with Tanh      | 6197.58            | **16.38**              | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_2_layer_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_2_layer_dev_ppl.svg) |
+| **D.** Bidirectional 1-Layer LSTM with ReLU      | 5275.12            | 14.01                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_dev_ppl.svg) |
+| **E.** Bidirectional 1-Layer LSTM with LeakyReLU | TODO               | TODO                   | TODO                                                         | TODO                                                         |
 
 #### Best Version
 
