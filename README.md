@@ -1,7 +1,7 @@
 # ZH-EN NMT Chinese to English Neural Machine Translation
 
-> This project is inspired by Stanford's CS224N NMT Project
->
+> This project is inspired by Stanford's CS224N NMT Project<br/>
+
 > Dataset used in this project: [News Commentary v14](http://data.statmt.org/news-commentary/v14)
 
 ## Intro
