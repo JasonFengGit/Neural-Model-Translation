@@ -1,4 +1,5 @@
 #!/bin/bash
+# PLEASE change all "./zh_en_data" to the path where your data is stored
 
 if [ "$1" = "train" ]; then
 	CUDA_VISIBLE_DEVICES=0 python run.py train --train-src=./zh_en_data/train.zh --train-tgt=./zh_en_data/train.en --dev-src=./zh_en_data/dev.zh --dev-tgt=./zh_en_data/dev.en --vocab=./zh_en_data/vocab_zh_en.json --cuda --lr=5e-4 --patience=1 --valid-niter=1000 --batch-size=32 --dropout=.25
