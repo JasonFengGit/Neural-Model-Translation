@@ -16,6 +16,7 @@ To investigate how would various setups of the recurrent layer affect the final 
 - Activation Functions on Output Layer
   - Tanh
   - ReLU
+  - LeakyReLU
 - Number of layers
 
   - single layer
@@ -100,7 +101,7 @@ _/
 | **B.** Bidirectional 1-Layer LSTM with Tanh      | 5150.31            | 16.20                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/lstm_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/edb3bca3d2c190398ab211195d9b14a16a163d76/images/lstm_dev_ppl.svg) |
 | **C.** Bidirectional 2-Layer LSTM with Tanh      | 6197.58            | **16.38**              | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_2_layer_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_2_layer_dev_ppl.svg) |
 | **D.** Bidirectional 1-Layer LSTM with ReLU      | 5275.12            | 14.01                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_dev_ppl.svg) |
-| **E.** Bidirectional 1-Layer LSTM with LeakyReLU | TODO               | TODO                   | TODO                                                         | TODO                                                         |
+| **E.** Bidirectional 1-Layer LSTM with LeakyReLU(slope=0.1) | 5292.58               | 14.87                   | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/437f11b1a3004156fd97122cbe4f7d6d92f3bc53/images/lstm_leaky_train_ppl.svg)                                                         | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/437f11b1a3004156fd97122cbe4f7d6d92f3bc53/images/lstm_leaky_dev_ppl.svg)                                                         |
 
 #### Best Version
 
@@ -111,7 +112,7 @@ TODO
 - LSTM tends to have better performance than GRU (it has an extra set of parameters)
 - Tanh tends to be better since less information is lost
 - Making the LSTM deeper (more layers) could improve the performance, but it cost more time to train
-- Surprisingly, the training time for A, B, and D are roughly the same
+- Surprisingly, the training time for **A**, **B**, and **D** are roughly the same
   - the issue may be the dataset is not large enough, or the cloud service I used to train models does not perform consistently
 
 ## Bad Examples & Case Analysis
