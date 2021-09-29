@@ -4,7 +4,7 @@
 >
 > Dataset used in this project: [News Commentary v14](http://data.statmt.org/news-commentary/v14)
 
-### Intro
+## Intro
 
 This project is more of a learning project to make myself familiar with Pytorch, machine translation, and NLP model training.
 
@@ -21,7 +21,7 @@ To investigate how would various setups of the recurrent layer affect the final 
   - single layer
   - double layer
 
-### Code Files
+## Code Files
 
 ```
 _/
@@ -32,7 +32,7 @@ _/
 ├─ run.py # training and testing
 ```
 
-### Good Translation Examples
+## Good Translation Examples
 
 - ***source***: 相反,这意味着合作的基础应当是共同的长期战略利益,而不是共同的价值观。
   - ***target***: Instead, it means that cooperation must be anchored not in shared values, but in shared long-term strategic interests.
@@ -48,19 +48,19 @@ _/
   - ***target***: At the same time, political crisis is impeding the government’s pursuit of difficult reforms.
   - ***translation***: Meanwhile, political crises hamper the government’s pursuit of difficult reforms.
 
-### Preprocessing
+## Preprocessing
 
 > Preprocessing Colab [notebook](https://colab.research.google.com/drive/1IJTdk7hj3uoPEE0Ox7QaeW4rTuUzuxPJ?usp=sharing)
 
 - using [`jieba` ](https://github.com/fxsjy/jieba)to separate Chinese words by spaces
 
-### Generate Vocab From Training Data
+## Generate Vocab From Training Data
 
 - Input: training data of Chinese and English
 
 - Output: a vocab file containing mapping from (sub)words to ids of Chinese and English -- a limited size of vocab is selected using [SentencePiece](https://github.com/google/sentencepiece) (essentially [Byte Pair Encoding](https://en.wikipedia.org/wiki/Byte_pair_encoding) of character n-grams) to cover around 99.95% of training data
 
-### Model Definition
+## Model Definition
 
 - a Seq2Seq model with attention
 
@@ -75,7 +75,7 @@ _/
   - Attention
     - Multiplicative Attention
 
-### Training And Testing Results
+## Training And Testing Results
 
 > Training Colab [notebook](https://colab.research.google.com/drive/1xW4KYJLoA9-ev7r7y4Eq-UQDUFjUKiYb?usp=sharing)
 
@@ -113,7 +113,7 @@ TODO
 - Surprisingly, the training time for A, B, and D are roughly the same
   - the issue may be the dataset is not large enough, or the cloud service I used to train models does not perform consistently
 
-### Bad Examples & Case Analysis
+## Bad Examples & Case Analysis
 
 - ***source***: **全球目击组织(Global Witness)**的报告记录, 光是2015年就有**16个国家**的185人被杀。
   - ***target***: A **Global Witness** report documented 185 killings across **16 countries** in 2015 alone.
@@ -138,7 +138,7 @@ TODO
   - ***problems***: 
     - Significant Information Loss
 
-### Means to Improve the NMT model
+## Means to Improve the NMT model
 
 - Dataset	
   - The dataset is fairly small, and our model is not being trained thorough all data
@@ -153,13 +153,13 @@ TODO
   - Add a proper noun dictionary to translate unknown proper nouns word-by-word (phrase-by-phrase) 
   - Initialize (sub)word embedding with pretrained embedding
 
-### How To Run
+## How To Run
 - To run locally on a CPU (mostly for sanity check, CPU is not able to train the model)
   - set up the environment using conda/miniconda `conda env create --file local env.yml`
 - To run on a GPU
   - set up the environment and running process following the Colab [notebook](https://colab.research.google.com/drive/1xW4KYJLoA9-ev7r7y4Eq-UQDUFjUKiYb?usp=sharing)
 
 
-### Contact
+## Contact
 If you have any questions or you have trouble running the code, feel free to contact me via [email](mailto:jasonfen@usc.edu)
 
