@@ -77,7 +77,7 @@ _/
 
 ## Training And Testing Results
 
-> Training Colab [notebook](https://colab.research.google.com/drive/1xW4KYJLoA9-ev7r7y4Eq-UQDUFjUKiYb?usp=sharing)
+> Training Colab [notebook](https://colab.research.google.com/drive/1HYbOh0AUMEasBAH7QPGNq9joH2dRRZwg?usp=sharing)
 
 - **Hyperparameters:**
   - Embedding Size & Hidden Size: 512
@@ -157,7 +157,7 @@ TODO
 - To run locally on a CPU (mostly for sanity check, CPU is not able to train the model)
   - set up the environment using conda/miniconda `conda env create --file local env.yml`
 - To run on a GPU
-  - set up the environment and running process following the Colab [notebook](https://colab.research.google.com/drive/1xW4KYJLoA9-ev7r7y4Eq-UQDUFjUKiYb?usp=sharing)
+  - set up the environment and running process following the Colab [notebook](https://colab.research.google.com/drive/1HYbOh0AUMEasBAH7QPGNq9joH2dRRZwg?usp=sharing)
 
 
 ## Contact
