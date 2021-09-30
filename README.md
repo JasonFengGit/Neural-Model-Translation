@@ -107,7 +107,7 @@ _/
 Bidirectional 2-Layer LSTM with Tanh, **1024 embed_size & hidden_size**, trained 11517.19 sec (44000 iterations), BLEU score **17.95**
 |            | Traning Time | BLEU Score on Test Set | Training Perplexities | Validation Perplexities |
 |:----------:|:------------:|:----------------------:|-----------------------|-------------------------|
-| Best Model |     11517.19     |          17.95          |          ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/a46acb697327c7e35804bcc169f79362d2a8f99a/images/best_train_ppl.svg)             |            ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/a46acb697327c7e35804bcc169f79362d2a8f99a/images/best_dev_ppl.svg)             |
+| Best Model |     11517.19     |          **17.95**          |          ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/a46acb697327c7e35804bcc169f79362d2a8f99a/images/best_train_ppl.svg)             |            ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/a46acb697327c7e35804bcc169f79362d2a8f99a/images/best_dev_ppl.svg)             |
 
 #### Analysis
 
