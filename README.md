@@ -103,9 +103,11 @@ _/
 | **D.** Bidirectional 1-Layer LSTM with ReLU      | 5275.12            | 14.01                  | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_train_ppl.svg) | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/4e70246b618a0fa35d5ab75193df638ac1e27562/images/lstm_relu_dev_ppl.svg) |
 | **E.** Bidirectional 1-Layer LSTM with LeakyReLU(slope=0.1) | 5292.58               | 14.87                   | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/437f11b1a3004156fd97122cbe4f7d6d92f3bc53/images/lstm_leaky_train_ppl.svg)                                                         | ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/437f11b1a3004156fd97122cbe4f7d6d92f3bc53/images/lstm_leaky_dev_ppl.svg)                                                         |
 
-#### Best Version
-
-TODO
+#### Current Best Version
+Bidirectional 2-Layer LSTM with Tanh, **1024 embed_size & hidden_size**, trained 11517.19 sec (44000 iterations), BLEU score **17.95**
+|            | Traning Time | BLEU Score on Test Set | Training Perplexities | Validation Perplexities |
+|:----------:|:------------:|:----------------------:|-----------------------|-------------------------|
+| Best Model |     11517.19     |          17.95          |          ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/a46acb697327c7e35804bcc169f79362d2a8f99a/images/best_train_ppl.svg)             |            ![](https://raw.githubusercontent.com/JasonFengGit/ZH-EN-Neural-Model-Translation/a46acb697327c7e35804bcc169f79362d2a8f99a/images/best_dev_ppl.svg)             |
 
 #### Analysis
 
